@@ -27,7 +27,7 @@ This program installs my personal repo.
 %install
 rm -rf ${RPM_BUILD_ROOT}
 mkdir --parents ${RPM_BUILD_ROOT}/etc/yum.repos.d
-cp alienmetaphor.repo ${RPM_BUILD_ROOT}/etc/yum.repos.d
+cp luckygamma.repo ${RPM_BUILD_ROOT}/etc/yum.repos.d
 
 
 %clean
@@ -35,4 +35,4 @@ rm -rf ${RPM_BUILD_ROOT}
 
 
 %files
-%attr(0644,root,root) /etc/yum.repos.d/alienmetaphor.repo
+%attr(0644,root,root) /etc/yum.repos.d/luckygamma.repo
