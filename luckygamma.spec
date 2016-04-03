@@ -1,4 +1,4 @@
-Name:           emory
+Name:           luckygamma
 Version:        VERSION
 Release:        RELEASE
 Summary:        Installs my personal repo.
